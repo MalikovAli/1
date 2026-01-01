@@ -12,6 +12,10 @@ body{
   font-family: 'MyFont';
   src: url('./Barlow-Regular.ttf') format('truetype');
 }
+
+.box-heading{
+    width: 1351px;
+}
 span{
     display: flex;
     gap: 7px;
@@ -265,7 +269,7 @@ span{
 .want-to-work{
     display: flex;
     justify-content: space-between;
-        padding: 80px;
+    padding: 80px;
 }
 .arrow-box{
     overflow: hidden;

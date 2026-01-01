@@ -92,5 +92,29 @@ function slide() {
 
 setInterval(slide, 2000);
 
+let a = 0;
+let b = 0;
+let counterHeading1 = document.querySelector(".counter-heading1")
+let counterHeading2 = document.querySelector(".counter-heading2")
+let counterHeading3 = document.querySelector(".counter-heading3")
+let counterHeading4 = document.querySelector(".counter-heading4")
+  let counterHeadingInterval1 = setInterval (() =>{
+    a++;
+    counterHeading1.textContent = a;
+    counterHeading3.textContent = a;
+    counterHeading4.textContent = a;
+    if(a == 230){
+      clearInterval(counterHeadingInterval1);
+    }
+  },30)
+
+    let counterHeadingInterval2 = setInterval (() =>{
+    b++;
+        counterHeading2.textContent = b;
+    if(b == 1068){
+      clearInterval(counterHeadingInterval2);
+    }
+  },7)
+
 
 

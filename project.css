@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('./Barlow-Regular.ttf') format('truetype');
+}
+
+body{
+    font-family: "barlow", sans-serif;
+}
+
+.project-boxes{
+    display: flex;
+    gap: 20px;
+}
+
+.project-box{
+     transition: 0.3s ease;
+}
+
+.project-image-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.project-image{
+    width: 349.984px;
+    height: 480px;
+    object-fit: cover;
+     transition: 0.3s ease;
+}
+
+.project-content-boxes1, .project-content-boxes2, .project-content-boxes3, .project-content-boxes4{
+    width: 328px;
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: -75px;
+    border-radius: 4px;
+    transition: all 0.3s ease ease;
+    box-shadow: 0px 15px 46px -16px rgba(0, 0, 0, 0.1);
+}
+
+.project-content-boxes1{
+    padding: 18px;
+}
+
+.project-content-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-subheading1, .project-subheading2, .project-subheading3, .project-subheading4, .project-subheading5, .project-subheading6, .project-subheading8, .project-subheading9{
+    background-color: rgba(0, 0, 0, 0.07);
+    padding: 5px 10px;
+    color: #fc5e28;;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+.project-subheading1{
+    width: 66px;
+    height: 31px;
+}
+.project-subheading2{
+    width: 86px;
+    height: 31px;
+}
+
+.project-subheading3{
+    width: 139px;
+    height: 31px;
+}
+
+.project-subheading4{
+    width: 114px;
+    height: 31px;
+}
+
+.project-subheading5{
+    width: 117px;
+    height: 31px;
+}
+
+.project-subheading6{
+    width: 137px;
+    height: 31px;
+}
+
+.project-subheading8{
+    width: 175px;
+    height: 31px;
+}
+
+.project-subheading9{
+    width: 183px;
+    height: 31px;
+}
+
+.project-content1{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.project-content2{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 13px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.project-content3{
+    width: 291px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.address-box > span{
+    font-size: 13px;
+    background-color: #999999;
+    color: #212529;
+}
+
+.box-icon{
+    font-size: 13px;
+    color: #fc5e28;
+    margin-right: -2px;
+}
+
+.project{
+    position: absolute;
+    top: 5px;
+    transition: 0.3s ease;
+}
+
+.project-span{
+    transition: 0.3s ease;
+}
+
+.project > span{
+    display: inline-block;
+    width: 83.9px;
+    height: 400px;
+}
